@@ -22,5 +22,6 @@ Gem::Specification.new do |s|
   # s.add_development_dependency "rspec"
   # s.add_runtime_dependency "rest-client"
   s.add_dependency 'omniauth'
-  s.add_dependency 'ims-lti'
+  s.add_dependency 'ims-lti', '1.1.13'
+  s.add_dependency 'oauth', '~> 0.5'
 end
